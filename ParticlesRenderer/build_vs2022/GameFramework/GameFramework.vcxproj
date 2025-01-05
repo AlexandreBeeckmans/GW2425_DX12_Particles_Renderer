@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F68F4BA-6E0E-3599-887E-F2AD9500D25C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GameFramework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFramework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFramework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFramework.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFramework.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/GameFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/GameFramework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\GameFramework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/GameFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/GameFramework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\GameFramework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/GameFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/GameFramework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\GameFramework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/GameFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/GameFramework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\GameFramework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\bitmask_operators.hpp" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\CThreadSafeQueue.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\Events.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\GameFramework.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\HighResolutionTimer.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\KeyCodes.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\ReadDirectoryChanges.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\GameFramework\Window.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\signals\optional.hpp" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc\signals\signals.hpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\GameFramework.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\GameFrameworkPCH.h" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\GameFrameworkPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\HighResolutionTimer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\ReadDirectoryChanges.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\ReadDirectoryChangesPrivate.h" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\ReadDirectoryChangesPrivate.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\src\Window.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameFrameworkPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\GameFramework.rc" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\resource.h" />
+    <None Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\Resources\Icon\app_icon.ico">
+    </None>
+    <None Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\.clang-format">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\ZERO_CHECK.vcxproj">
+      <Project>{25A6852E-D24F-3A40-B34A-8913AB216BAB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\gainput\lib\gainput.vcxproj">
+      <Project>{805E2D03-4D90-3131-A2A3-531541CDD9C7}</Project>
+      <Name>gainput</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

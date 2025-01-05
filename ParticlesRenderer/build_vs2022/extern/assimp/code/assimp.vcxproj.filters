@@ -1,0 +1,1859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3DS\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3DS\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AC\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\ASE\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\ASE\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assbin\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\B3D\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\BVH\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\DXF\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\CSM\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\HMP\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Irr\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Irr\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Irr\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWS\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD2\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD3\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD5\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD5\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDC\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDL\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDL\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\NFF\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\NDO\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OFF\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ply\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ply\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MS3D\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\COB\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderCustomData.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\XGL\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3D\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Raw\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\SIB\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\SMD\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\STL\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Terragen\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Unreal\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\StepFile\StepFileImporter.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\StepFile\StepFileGen1.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\StepFile\StepFileGen2.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\StepFile\StepFileGen3.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3DS\3DSExporter.cpp">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assbin\AssbinExporter.cpp">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assxml\AssxmlExporter.cpp">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaExporter.cpp">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjExporter.cpp">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ply\PlyExporter.cpp">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXExporter.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXExportNode.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXExportProperty.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\STL\STLExporter.cpp">
+      <Filter>STL_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileExporter.cpp">
+      <Filter>X_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DExporter.cpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFExporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2Exporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\D3MFExporter.cpp">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assjson\cencode.c">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assjson\json_exporter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assjson\mesh_splitter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Step\StepExporter.cpp">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AMF\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3DS\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3DS\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\AC\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\ASE\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\ASE\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assbin\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\B3D\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\BVH\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\DXF\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\DXF\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\CSM\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\HMP\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\HMP\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\HMP\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Irr\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Irr\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Irr\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWO\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\LWS\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD2\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD2\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD2\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD3\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD3\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD5\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MD5\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDC\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDC\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDC\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDL\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDL\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MDL\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\NFF\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\NDO\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OFF\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ogre\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OpenGEX\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OpenGEX\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ply\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ply\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MS3D\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\COB\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\COB\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Blender\BlenderCustomData.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCReaderGen_2x3.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\IFC\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\XGL\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3D\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3BSP\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3BSP\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Raw\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\SIB\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\SMD\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\STL\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Terragen\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Unreal\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\MMD\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Step\STEPFile.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\StepFile\StepFileImporter.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Importer\StepFile\StepReaderGen.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3DS\3DSExporter.h">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assbin\AssbinExporter.h">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assxml\AssxmlExporter.h">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Collada\ColladaExporter.h">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Obj\ObjExporter.h">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\OpenGEX\OpenGEXExporter.h">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Ply\PlyExporter.h">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXExporter.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXExportNode.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\FBX\FBXExportProperty.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\STL\STLExporter.h">
+      <Filter>STL_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X\XFileExporter.h">
+      <Filter>X_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\X3D\X3DExporter.hpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF\glTFExporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\glTF2\glTF2Exporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\3MF\D3MFExporter.h">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assjson\cencode.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Assjson\mesh_splitter.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\Step\StepExporter.h">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\pbrmaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\fast_atof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\qnan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\BaseImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\ParsingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\StreamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\StreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\StringComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\SGSpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\GenericProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\SpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\SmoothingGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\StandardShapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\RemoveComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Subdivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\LineSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\TinyFormatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\LogAux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\XMLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Exceptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\ByteSwapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{BDDEA222-BD8E-3BDA-88F2-0AE82C5F59A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{B047ED02-0FCC-30F8-ABB1-EB7E3897A770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS_EXPORTER">
+      <UniqueIdentifier>{6F609EB4-62BE-3E7A-8503-CB8B284853F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{7FE58570-DCA2-3E9B-996F-756E04D33719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF_EXPORTER">
+      <UniqueIdentifier>{9EAFCC2A-707A-3969-AE4A-3D53D3784660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{FB77DBBF-41D0-3A5C-9BDF-FCF358CDEDEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{B8774EEC-BDF7-3A21-9920-AE0A291570F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{01D0A390-6E63-3A51-8A48-91F620FFFBA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{07129434-D944-349B-BE3E-DEAFBCBD27E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN_EXPORTER">
+      <UniqueIdentifier>{279BE288-C72D-3DBF-A4E7-6D98CA7BD05D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSJSON_EXPORTER">
+      <UniqueIdentifier>{D5A8BC5B-3508-395C-B7E8-7BCDF19C9721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML_EXPORTER">
+      <UniqueIdentifier>{69A1BAA8-5FB9-33E3-8BD4-57606C234CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{BC9CBB07-2C6E-313B-B5FC-6C837236E93E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{E2946665-3FAC-31B8-9034-AAA85410BFC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{E2CCE836-BF89-37B9-BBD9-8C04B28E59C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{ACC47615-7292-3F58-8046-B1910A42452B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{4C152033-B186-37DD-AABB-0124F86B8DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{1B8FAB24-E593-365B-8C3E-2F80BE5075CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA_EXPORTER">
+      <UniqueIdentifier>{7B7A01FE-897B-3CFC-B8B8-CE5D67DFD616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{E1CF1B33-8B25-3287-B732-99C21AA6A01F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{FCAFF1B9-E359-3AB2-9067-D1FBA1F48CAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{B6E219F8-7D9A-3BF7-A499-30960E847BD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{393D62AA-C6DA-3A01-BB43-F92F9860DA4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{56CA7514-AC26-3DA9-AF71-86B0E5D2F3ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{1DCDAEFD-6D9D-3BC2-A23C-0EEAB1157DA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{BEBCBFA7-B755-3CB9-A7FE-429FC2909BF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{2FC22C40-5330-39F4-9386-52DAD43DF799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{939278C2-7A78-34BD-A7B1-7DB41BA07840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{63DD8865-4E80-3373-9FC3-2714B7F09391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{79ACE470-03D8-3EA4-9588-92555AE7EDC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{BD747A38-6E4E-3448-BE50-6EEFB4BDAACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX_EXPORTER">
+      <UniqueIdentifier>{C3785452-7B21-3682-9D8D-9D8BC0DA6C05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{764AF30A-7AC0-3957-94B2-3E48E72E3F34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_EXPORTER">
+      <UniqueIdentifier>{E643DE6F-5401-340C-B148-3A7B44E27BCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{33434F4F-4B26-3ADD-AC9B-02223F3A7429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5D0BD8E3-7D1E-3374-A565-E36931FC9DDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{FE91EF5C-CAE9-3FB2-9837-4336556BE82B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{606B9CDD-95F2-38E8-8F8B-0A051687ED22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{F61A94F9-335D-3D5A-81A9-D6EAEB987BF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{A8AF6DB0-F72E-36E4-AF0A-F60637958B77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{EA7C2A4C-D634-30BA-AA2A-EEF0C03B30A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{96F87B33-8F8C-3599-B296-4DDBE5BE4DB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{5711CD22-4BC3-32D2-AB22-0E4A24C7958A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{F5DD8EE1-5C76-36D1-86AE-020ECBA03DCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{45460FF4-70E7-320E-94F9-896501AED0AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{2B13B27B-2D6A-3ADD-9E14-2A9F1EF6B4B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{C0649D5C-5019-38C4-AE2E-06BA3AE73A17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{53A00766-0A81-3517-A007-07464C99A41D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{498F6111-069E-3D96-BF41-D6ADA3D92923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{8E604620-025A-3023-AD3E-00BB664AFF28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{22EFBAF9-ACEA-34E7-A17E-9D3F33F1AEE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{E8AAD3B3-3ED3-3B8C-A3A8-FDDDC8BDE2EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{5391768D-1D75-39B9-A7DE-05F59C50E2AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{293058D7-1021-3690-ADCC-4E17613757AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ_EXPORTER">
+      <UniqueIdentifier>{AA0B6899-835C-3766-BA56-94936309A031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{5FD06278-C299-37BE-A818-422AC5C591B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{B3CCD27F-5E2E-3A26-AA1D-C03DF90E76DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{9A37341F-A4EF-35EE-B319-42EB13FF1527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX_EXPORTER">
+      <UniqueIdentifier>{E0AC7F88-9BEE-34E1-AB58-90F4118DBA4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{B4DFAE66-26D9-3B52-9C78-78EA4217C869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY_EXPORTER">
+      <UniqueIdentifier>{4C1B7FBB-F5D4-3151-B3B7-88E84851E8E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{FC29AE15-C945-3A45-A692-F3344AD84817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{1B83C104-862F-3409-8B2C-53BAD38ACBA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{AB9D7150-4713-37BD-A8E8-FD3598D44F05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{BFEA7E8B-F9F8-3F2C-A78E-FF213E99AE0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{D4E4314B-2414-3078-B642-8CD853C8B68D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{7109D936-A62F-3370-B2AA-6407467E8ABB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP">
+      <UniqueIdentifier>{FA92A624-3B3C-36EB-9269-2D7B8D9D5FEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{B0747C63-64A8-37E1-8CD4-FB58016142DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP_EXPORTER">
+      <UniqueIdentifier>{E42AB676-FCFC-3909-8CD3-C75E6CDBA25E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{4D9346C1-BC3C-3381-B081-0A0622CDBED7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL_EXPORTER">
+      <UniqueIdentifier>{9242EE2B-2013-3290-9B62-ED9A6B8685D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7653A6AE-C3F7-3FE6-8A62-C3A5052362CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{00C2E8BC-2FDD-3B3C-A228-44AE91F88608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{47B81FC0-A89B-33DF-905D-FA028433E139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{2214213C-6310-304F-854F-E8847EC21B92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D_EXPORTER">
+      <UniqueIdentifier>{3B495E28-9315-323F-9EAA-A10E485FB34C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{E49C36D7-CFE8-35BE-8E5A-D9E9A205EF5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_EXPORTER">
+      <UniqueIdentifier>{1CD50432-6716-3050-AD71-3F790CA472E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{803393C6-3E5D-316B-8714-42C24CC00D02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

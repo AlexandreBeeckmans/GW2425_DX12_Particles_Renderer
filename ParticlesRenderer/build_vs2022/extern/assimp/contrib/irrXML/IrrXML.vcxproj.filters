@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\irrXML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\heapsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\irrArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\irrString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\irrTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\irrXML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\contrib\irrXML\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5D0BD8E3-7D1E-3374-A565-E36931FC9DDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7653A6AE-C3F7-3FE6-8A62-C3A5052362CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94D27161-4A53-33E2-AA73-6725117718F2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>03-Textures</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">03-Textures.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">03-Textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">03-Textures.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">03-Textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">03-Textures.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">03-Textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">03-Textures.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">03-Textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\DX12Libd.lib;..\..\lib\Debug\GameFrameworkd.lib;d3dcompiler.lib;Shlwapi.lib;nvml.lib;..\..\lib\Debug\DirectXTexd.lib;..\..\lib\Debug\assimp-vc143-mtd.lib;..\..\lib\Debug\zlibstaticd.lib;..\..\lib\Debug\IrrXMLd.lib;d3d12.lib;dxgi.lib;dxguid.lib;..\..\lib\Debug\gainput-d.lib;Xinput9_1_0.lib;ws2_32.lib;..\..\GameFramework\GameFramework.dir\$(Configuration)\GameFramework.res;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml;C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/lib/Debug/03-Textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/bin/Debug/03-Textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <FxCompile>
+      <ShaderType>Mesh</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>6.6</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\DX12Lib.lib;..\..\lib\Release\GameFramework.lib;d3dcompiler.lib;Shlwapi.lib;nvml.lib;..\..\lib\Release\DirectXTex.lib;..\..\lib\Release\assimp-vc143-mt.lib;..\..\lib\Release\zlibstatic.lib;..\..\lib\Release\IrrXML.lib;d3d12.lib;dxgi.lib;dxguid.lib;..\..\lib\Release\gainput.lib;Xinput9_1_0.lib;ws2_32.lib;..\..\GameFramework\GameFramework.dir\$(Configuration)\GameFramework.res;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml;C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/lib/Release/03-Textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/bin/Release/03-Textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <FxCompile>
+      <ShaderType>Mesh</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>6.6</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\DX12Lib.lib;..\..\lib\MinSizeRel\GameFramework.lib;d3dcompiler.lib;Shlwapi.lib;nvml.lib;..\..\lib\MinSizeRel\DirectXTex.lib;..\..\lib\MinSizeRel\assimp-vc143-mt.lib;..\..\lib\MinSizeRel\zlibstatic.lib;..\..\lib\MinSizeRel\IrrXML.lib;d3d12.lib;dxgi.lib;dxguid.lib;..\..\lib\MinSizeRel\gainput.lib;Xinput9_1_0.lib;ws2_32.lib;..\..\GameFramework\GameFramework.dir\$(Configuration)\GameFramework.res;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml;C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/lib/MinSizeRel/03-Textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/bin/MinSizeRel/03-Textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <FxCompile>
+      <ShaderType>Mesh</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>6.6</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\nvml;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\DX12Lib\inc\imgui;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\DirectXTex\DirectXTex;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\..\include;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\GameFramework\inc;C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\extern\gainput\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\DX12Lib.lib;..\..\lib\RelWithDebInfo\GameFramework.lib;d3dcompiler.lib;Shlwapi.lib;nvml.lib;..\..\lib\RelWithDebInfo\DirectXTex.lib;..\..\lib\RelWithDebInfo\assimp-vc143-mt.lib;..\..\lib\RelWithDebInfo\zlibstatic.lib;..\..\lib\RelWithDebInfo\IrrXML.lib;d3d12.lib;dxgi.lib;dxguid.lib;..\..\lib\RelWithDebInfo\gainput.lib;Xinput9_1_0.lib;ws2_32.lib;..\..\GameFramework\GameFramework.dir\$(Configuration)\GameFramework.res;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml;C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/nvml/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/lib/RelWithDebInfo/03-Textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/bin/RelWithDebInfo/03-Textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <FxCompile>
+      <ShaderType>Mesh</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>6.6</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/samples/03-Textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/samples/03-Textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\03-Textures.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\samples\03-Textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/samples/03-Textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/samples/03-Textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\03-Textures.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\samples\03-Textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/samples/03-Textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/samples/03-Textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\03-Textures.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\samples\03-Textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/samples/03-Textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer -BC:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022 --check-stamp-file C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/samples/03-Textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\03-Textures.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\samples\03-Textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\Camera.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\Light.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\SceneVisitor.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\TestApplication.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\Particle.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\ParticleSystem.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\Mat.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\FPSCounter.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\inc\MemoryCounter.h" />
+    <ClInclude Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\nvml\nvml.h" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\Camera.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\main.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\Light.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\SceneVisitor.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\TestApplication.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\Particle.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\ParticleSystem.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\Mat.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\FPSCounter.cpp" />
+    <ClCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\src\MemoryCounter.cpp" />
+    <FXCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\shaders\VertexShader.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <ShaderType>Vertex</ShaderType>
+      <ShaderModel>6.6</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/Data/Shaders/03-Textures/%(Filename).cso</ObjectFileOutput>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</EnableDebuggingInformation>
+    </FXCompile>
+    <FXCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\shaders\PixelShader.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <ShaderType>Pixel</ShaderType>
+      <ShaderModel>6.6</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/Data/Shaders/03-Textures/%(Filename).cso</ObjectFileOutput>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</EnableDebuggingInformation>
+    </FXCompile>
+    <FXCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\shaders\GeometryShader.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <ShaderType>Geometry</ShaderType>
+      <ShaderModel>6.6</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/Data/Shaders/03-Textures/%(Filename).cso</ObjectFileOutput>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</EnableDebuggingInformation>
+    </FXCompile>
+    <FXCompile Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\samples\03-Textures\shaders\MeshShader.hlsl">
+      <ShaderModel>6.6</ShaderModel>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/Data/Shaders/03-Textures/%(Filename).cso</ObjectFileOutput>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</EnableDebuggingInformation>
+    </FXCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\ZERO_CHECK.vcxproj">
+      <Project>{25A6852E-D24F-3A40-B34A-8913AB216BAB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\DX12Lib\DX12Lib.vcxproj">
+      <Project>{9B743303-DC02-38EF-A8AD-729D1CC4EDB3}</Project>
+      <Name>DX12Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\DirectXTex\DirectXTex.vcxproj">
+      <Project>{38038FF3-B354-39E1-A91E-E787631087C8}</Project>
+      <Name>DirectXTex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\GameFramework\GameFramework.vcxproj">
+      <Project>{0F68F4BA-6E0E-3599-887E-F2AD9500D25C}</Project>
+      <Name>GameFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{739B328E-1513-3CB3-A9DE-8D869E550046}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\code\assimp.vcxproj">
+      <Project>{A75F33A9-058E-3121-AE0E-5F8ED6763C84}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\gainput\lib\gainput.vcxproj">
+      <Project>{805E2D03-4D90-3131-A2A3-531541CDD9C7}</Project>
+      <Name>gainput</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\DAE\2024-2025\1st_semester\GradWork\CodeSamples\DirectX12\GW2425_DX12_Particles_Renderer\ParticlesRenderer\build_vs2022\extern\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{5E119239-B82F-3A5E-AE1A-574997A03617}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

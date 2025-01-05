@@ -1,0 +1,624 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.12+1cce77968 for .NET Framework
+      Build started 05/01/2025 21:29:00.
+      
+      Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/3.29.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-z1vgaa"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-z1vgaa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-z1vgaa'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd5f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:02.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-z1vgaa\\cmTC_dd5f3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dd5f3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-z1vgaa\\Debug\\".
+          Creating directory "cmTC_dd5f3.dir\\Debug\\cmTC_dd5f3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dd5f3.dir\\Debug\\cmTC_dd5f3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dd5f3.dir\\Debug\\cmTC_dd5f3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd5f3.dir\\Debug\\\\" /Fd"cmTC_dd5f3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd5f3.dir\\Debug\\\\" /Fd"cmTC_dd5f3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-z1vgaa\\Debug\\cmTC_dd5f3.exe" /INCREMENTAL /ILK:"cmTC_dd5f3.dir\\Debug\\cmTC_dd5f3.ilk" /NOLOGO /LIBPATH:"C:\\Program Files (x86)\\Visual Leak Detector\\lib\\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-z1vgaa/Debug/cmTC_dd5f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-z1vgaa/Debug/cmTC_dd5f3.lib" /MACHINE:X64  /machine:x64 cmTC_dd5f3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dd5f3.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-z1vgaa\\Debug\\cmTC_dd5f3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_dd5f3.dir\\Debug\\cmTC_dd5f3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dd5f3.dir\\Debug\\cmTC_dd5f3.tlog\\cmTC_dd5f3.lastbuildstate".
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-z1vgaa\\cmTC_dd5f3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "extern/assimp/CMakeLists.txt:54 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.12+1cce77968 for .NET Framework
+      Build started 05/01/2025 21:29:03.
+      
+      Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.60
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/3.29.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "extern/assimp/CMakeLists.txt:54 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-r34fp5"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-r34fp5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-r34fp5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_01dc3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:04.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-r34fp5\\cmTC_01dc3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_01dc3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-r34fp5\\Debug\\".
+          Creating directory "cmTC_01dc3.dir\\Debug\\cmTC_01dc3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_01dc3.dir\\Debug\\cmTC_01dc3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_01dc3.dir\\Debug\\cmTC_01dc3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01dc3.dir\\Debug\\\\" /Fd"cmTC_01dc3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01dc3.dir\\Debug\\\\" /Fd"cmTC_01dc3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-r34fp5\\Debug\\cmTC_01dc3.exe" /INCREMENTAL /ILK:"cmTC_01dc3.dir\\Debug\\cmTC_01dc3.ilk" /NOLOGO /LIBPATH:"C:\\Program Files (x86)\\Visual Leak Detector\\lib\\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-r34fp5/Debug/cmTC_01dc3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-r34fp5/Debug/cmTC_01dc3.lib" /MACHINE:X64  /machine:x64 cmTC_01dc3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_01dc3.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-r34fp5\\Debug\\cmTC_01dc3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_01dc3.dir\\Debug\\cmTC_01dc3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_01dc3.dir\\Debug\\cmTC_01dc3.tlog\\cmTC_01dc3.lastbuildstate".
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-r34fp5\\cmTC_01dc3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "extern/assimp/CMakeLists.txt:54 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "extern/assimp/CMakeLists.txt:54 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "extern/assimp/contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-55u94e"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-55u94e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/extern/assimp/cmake-modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-55u94e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_79276.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:05.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\cmTC_79276.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_79276.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\Debug\\".
+          Creating directory "cmTC_79276.dir\\Debug\\cmTC_79276.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_79276.dir\\Debug\\cmTC_79276.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_79276.dir\\Debug\\cmTC_79276.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79276.dir\\Debug\\\\" /Fd"cmTC_79276.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\CheckIncludeFile.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79276.dir\\Debug\\\\" /Fd"cmTC_79276.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\Debug\\cmTC_79276.exe" /INCREMENTAL /ILK:"cmTC_79276.dir\\Debug\\cmTC_79276.ilk" /NOLOGO /LIBPATH:"C:\\Program Files (x86)\\Visual Leak Detector\\lib\\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-55u94e/Debug/cmTC_79276.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-55u94e/Debug/cmTC_79276.lib" /MACHINE:X64  /machine:x64 cmTC_79276.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_79276.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\Debug\\cmTC_79276.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_79276.dir\\Debug\\cmTC_79276.tlog\\unsuccessfulbuild".
+          Touching "cmTC_79276.dir\\Debug\\cmTC_79276.tlog\\cmTC_79276.lastbuildstate".
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-55u94e\\cmTC_79276.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "extern/assimp/contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-fdmo5p"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-fdmo5p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/extern/assimp/cmake-modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-fdmo5p'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04a6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:06.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\cmTC_04a6c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_04a6c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\Debug\\".
+          Creating directory "cmTC_04a6c.dir\\Debug\\cmTC_04a6c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_04a6c.dir\\Debug\\cmTC_04a6c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_04a6c.dir\\Debug\\cmTC_04a6c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04a6c.dir\\Debug\\\\" /Fd"cmTC_04a6c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\CheckIncludeFile.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04a6c.dir\\Debug\\\\" /Fd"cmTC_04a6c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\Debug\\cmTC_04a6c.exe" /INCREMENTAL /ILK:"cmTC_04a6c.dir\\Debug\\cmTC_04a6c.ilk" /NOLOGO /LIBPATH:"C:\\Program Files (x86)\\Visual Leak Detector\\lib\\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-fdmo5p/Debug/cmTC_04a6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-fdmo5p/Debug/cmTC_04a6c.lib" /MACHINE:X64  /machine:x64 cmTC_04a6c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_04a6c.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\Debug\\cmTC_04a6c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_04a6c.dir\\Debug\\cmTC_04a6c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_04a6c.dir\\Debug\\cmTC_04a6c.tlog\\cmTC_04a6c.lastbuildstate".
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-fdmo5p\\cmTC_04a6c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "extern/assimp/contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-wfg8e2"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-wfg8e2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/extern/assimp/cmake-modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-wfg8e2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c124f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:07.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\cmTC_c124f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c124f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\Debug\\".
+          Creating directory "cmTC_c124f.dir\\Debug\\cmTC_c124f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c124f.dir\\Debug\\cmTC_c124f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c124f.dir\\Debug\\cmTC_c124f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c124f.dir\\Debug\\\\" /Fd"cmTC_c124f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\CheckIncludeFile.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c124f.dir\\Debug\\\\" /Fd"cmTC_c124f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\Debug\\cmTC_c124f.exe" /INCREMENTAL /ILK:"cmTC_c124f.dir\\Debug\\cmTC_c124f.ilk" /NOLOGO /LIBPATH:"C:\\Program Files (x86)\\Visual Leak Detector\\lib\\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-wfg8e2/Debug/cmTC_c124f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-wfg8e2/Debug/cmTC_c124f.lib" /MACHINE:X64  /machine:x64 cmTC_c124f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c124f.vcxproj -> C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\Debug\\cmTC_c124f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c124f.dir\\Debug\\cmTC_c124f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c124f.dir\\Debug\\cmTC_c124f.tlog\\cmTC_c124f.lastbuildstate".
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-wfg8e2\\cmTC_c124f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "extern/assimp/contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-pp4twy"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-pp4twy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/extern/assimp/cmake-modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-pp4twy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fbc8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:07.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fbc8f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\Debug\\".
+          Creating directory "cmTC_fbc8f.dir\\Debug\\cmTC_fbc8f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fbc8f.dir\\Debug\\cmTC_fbc8f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fbc8f.dir\\Debug\\cmTC_fbc8f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbc8f.dir\\Debug\\\\" /Fd"cmTC_fbc8f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbc8f.dir\\Debug\\\\" /Fd"cmTC_fbc8f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c"
+          OFF64_T.c
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(29,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(30,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(31,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(32,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(33,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(29,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(30,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(31,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(32,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\OFF64_T.c(33,12): error C2065: 'off64_t' : identificateur non déclaré [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-pp4twy\\cmTC_fbc8f.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "extern/assimp/contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-3cg26t"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-3cg26t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/extern/assimp/cmake-modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-3cg26t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_db6f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:08.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_db6f1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\Debug\\".
+          Creating directory "cmTC_db6f1.dir\\Debug\\cmTC_db6f1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_db6f1.dir\\Debug\\cmTC_db6f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_db6f1.dir\\Debug\\cmTC_db6f1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db6f1.dir\\Debug\\\\" /Fd"cmTC_db6f1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db6f1.dir\\Debug\\\\" /Fd"cmTC_db6f1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\Debug\\cmTC_db6f1.exe" /INCREMENTAL /ILK:"cmTC_db6f1.dir\\Debug\\cmTC_db6f1.ilk" /NOLOGO /LIBPATH:"C:\\Program Files (x86)\\Visual Leak Detector\\lib\\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-3cg26t/Debug/cmTC_db6f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-3cg26t/Debug/cmTC_db6f1.lib" /MACHINE:X64  /machine:x64 cmTC_db6f1.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: symbole externe non résolu fseeko référencé dans la fonction main [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj]
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\Debug\\cmTC_db6f1.exe : fatal error LNK1120: 1 externes non résolus [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj]
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: symbole externe non résolu fseeko référencé dans la fonction main [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj]
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\Debug\\cmTC_db6f1.exe : fatal error LNK1120: 1 externes non résolus [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-3cg26t\\cmTC_db6f1.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "extern/assimp/contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-w3ftyf"
+      binary: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-w3ftyf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/extern/assimp/cmake-modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/DAE/2024-2025/1st_semester/GradWork/CodeSamples/DirectX12/GW2425_DX12_Particles_Renderer/ParticlesRenderer/build_vs2022/CMakeFiles/CMakeScratch/TryCompile-w3ftyf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_575b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 05/01/2025 21:29:09.
+        
+        Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\cmTC_575b7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_575b7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\Debug\\".
+          Creating directory "cmTC_575b7.dir\\Debug\\cmTC_575b7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_575b7.dir\\Debug\\cmTC_575b7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_575b7.dir\\Debug\\cmTC_575b7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_575b7.dir\\Debug\\\\" /Fd"cmTC_575b7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\CheckIncludeFile.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.42.34435 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          cl /c /I"C:\\Program Files (x86)\\Visual Leak Detector\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_575b7.dir\\Debug\\\\" /Fd"cmTC_575b7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\CheckIncludeFile.c(1,10): error C1083: Impossible d'ouvrir le fichier include : 'unistd.h' : No such file or directory [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\cmTC_575b7.vcxproj]
+        Done Building Project "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\cmTC_575b7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\cmTC_575b7.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\CheckIncludeFile.c(1,10): error C1083: Impossible d'ouvrir le fichier include : 'unistd.h' : No such file or directory [C:\\DAE\\2024-2025\\1st_semester\\GradWork\\CodeSamples\\DirectX12\\GW2425_DX12_Particles_Renderer\\ParticlesRenderer\\build_vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-w3ftyf\\cmTC_575b7.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+...

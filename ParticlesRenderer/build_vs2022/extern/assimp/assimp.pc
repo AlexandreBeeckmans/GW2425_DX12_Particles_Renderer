@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/LearningDirectX12
+exec_prefix=C:/Program Files (x86)/LearningDirectX12/
+libdir=C:/Program Files (x86)/LearningDirectX12/lib
+includedir=C:/Program Files (x86)/LearningDirectX12/../include/include
+
+Name: LearningDirectX12
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 5.0.0
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}
