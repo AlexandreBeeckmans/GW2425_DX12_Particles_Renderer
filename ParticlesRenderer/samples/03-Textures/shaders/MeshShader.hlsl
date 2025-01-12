@@ -1,4 +1,4 @@
-#define MAX_PARTICLES_PER_GROUP 1
+#define MAX_PARTICLES_PER_GROUP 64
 
 StructuredBuffer<matrix> Matrices : register(t0);
 
@@ -28,7 +28,7 @@ MeshOutput CreateVertexFromBasePoint(matrix inputMatrix, float2 position, float2
     return OUT;
 }
 
-[numthreads(MAX_PARTICLES_PER_GROUP, 1, 1)]
+[numthreads(1, 1, 1)]
 [outputtopology("triangle")]
 void main(out indices uint3 triangles[2 * MAX_PARTICLES_PER_GROUP], out vertices MeshOutput vertices[4 * MAX_PARTICLES_PER_GROUP], uint3 dispatchThreadID : SV_DispatchThreadID)
 {

@@ -36,14 +36,17 @@ private:
     void  Accelerate( float deltaTime );
     void MovePerpendicular( float deltaTime );
 
+    //modified parameters for the test
     float m_Size;
     float m_Speed;
 
     static constexpr float m_Acceleration { 0.05f };
+
+    //random
     Vec3 m_Direction;
-
-
     Vec3 m_PerpendicularDirection;
+
+
     float m_AccumulatedPerpendicularTime {};
     float m_perpendicularSpeed {};
 

@@ -73,7 +73,6 @@ public:
 protected:
     void OnUpdate( UpdateEventArgs& e );
     void OnRender();
-    void OnGUI( const std::shared_ptr<dx12lib::CommandList>& commandList, const dx12lib::RenderTarget& renderTarget );
 
 
     void OnKeyPressed( KeyEventArgs& e );
@@ -100,7 +99,6 @@ private:
     // DX12 Device.
     std::shared_ptr<dx12lib::Device>    m_Device;
     std::shared_ptr<dx12lib::SwapChain> m_SwapChain;
-    std::shared_ptr<dx12lib::GUI>       m_GUI;
 
 
     // Render target
@@ -146,9 +144,9 @@ private:
 
 
     //test parameters
-    static constexpr bool m_IsUsingMeshShaders { false };
-    static constexpr float m_ParticlesSize { 10.0f };
-    static constexpr bool  m_IsAccelerationEnabled { true };
+    static constexpr bool m_IsUsingMeshShaders { true };
+    static constexpr float m_ParticlesSize { 0.5f };
+    static constexpr bool  m_IsAccelerationEnabled { false };
     static constexpr bool  m_IsPerpendicularEnabled { false };
 
     //Implementation specific

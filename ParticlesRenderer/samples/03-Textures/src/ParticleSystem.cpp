@@ -91,10 +91,9 @@ void ParticleSystem::MeshShaderRender(dx12lib::Device& device, dx12lib::CommandL
     commandList.SetShaderResourceView( RootParameters::MatricesSRV, matricesBuffer, D3D12_RESOURCE_STATE_GENERIC_READ );
 
     //Perform Draw
-    int numParticles      = m_Particles.size();
-    int particlesPerGroup = 1;
+    const int numParticles      = m_Particles.size();
+    constexpr int particlesPerGroup = 64;
 
-    int numDispatches = ( numParticles + particlesPerGroup - 1 ) / particlesPerGroup;
     commandList.MeshShaderDraw( numParticles / particlesPerGroup);
 }
 

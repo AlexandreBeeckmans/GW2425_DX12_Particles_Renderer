@@ -125,11 +125,6 @@ bool TestApplication::LoadContent()
     m_SwapChain = m_Device->CreateSwapChain( m_Window->GetWindowHandle(), DXGI_FORMAT_R8G8B8A8_UNORM );
     m_SwapChain->SetVSync( m_VSync );
 
-    m_GUI = m_Device->CreateGUI( m_Window->GetWindowHandle(), m_SwapChain->GetRenderTarget() );
-
-    // This magic here allows ImGui to process window messages.
-    GameFramework::Get().WndProcHandler += WndProcEvent::slot( &GUI::WndProcHandler, m_GUI );
-
     auto& commandQueue = m_Device->GetCommandQueue( m_IsUsingMeshShaders ? D3D12_COMMAND_LIST_TYPE_DIRECT : D3D12_COMMAND_LIST_TYPE_COPY );
 
     m_CommandList  = commandQueue.GetCommandList();
@@ -361,7 +356,7 @@ void TestApplication::UnloadContent()
     m_RootSignature.reset();
     m_PipelineState.reset();
 
-    m_GUI.reset();
+    //m_GUI.reset();
     m_SwapChain.reset();
     m_Device.reset();
 }
@@ -424,26 +419,13 @@ void TestApplication::OnRender()
 
     commandList->ResolveSubresource( swapChainBackBuffer, msaaRenderTarget );
 
-    // Render the GUI directly to the swap chain's render target.
-    OnGUI( commandList, swapChainRT );
 
     commandQueue.ExecuteCommandList( commandList );
 
     m_SwapChain->Present();
 }
 
-void TestApplication::OnGUI( const std::shared_ptr<CommandList>& commandList, const RenderTarget& renderTarget )
-{
-    m_GUI->NewFrame();
 
-    static bool showDemoWindow = false;
-    if ( showDemoWindow )
-    {
-        ImGui::ShowDemoWindow( &showDemoWindow );
-    }
-
-    m_GUI->Render( commandList, renderTarget );
-}
 
 static bool g_AllowFullscreenToggle = true;
 
@@ -549,30 +531,24 @@ void TestApplication::OnMouseMoved( MouseMotionEventArgs& e )
 {
     const float mouseSpeed = 0.1f;
 
-    if ( !ImGui::GetIO().WantCaptureMouse )
+    if ( e.LeftButton )
     {
-        if ( e.LeftButton )
-        {
-            m_Pitch -= e.RelY * mouseSpeed;
+        m_Pitch -= e.RelY * mouseSpeed;
 
-            m_Pitch = std::clamp( m_Pitch, -90.0f, 90.0f );
+        m_Pitch = std::clamp( m_Pitch, -90.0f, 90.0f );
 
-            m_Yaw -= e.RelX * mouseSpeed;
-        }
+        m_Yaw -= e.RelX * mouseSpeed;
     }
 }
 
 void TestApplication::OnMouseWheel( MouseWheelEventArgs& e )
 {
-    if ( !ImGui::GetIO().WantCaptureMouse )
-    {
-        auto fov = m_Camera.get_FoV();
-
-        fov -= e.WheelDelta;
-        fov = std::clamp( fov, 12.0f, 90.0f );
-
-        m_Camera.set_FoV( fov );
-
-        m_Logger->info( "FoV: {:.7}", fov );
-    }
+    auto fov = m_Camera.get_FoV();
+    
+    fov -= e.WheelDelta;
+    fov = std::clamp( fov, 12.0f, 90.0f );
+    
+    m_Camera.set_FoV( fov );
+    
+    m_Logger->info( "FoV: {:.7}", fov );
 }
